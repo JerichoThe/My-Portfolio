@@ -1,12 +1,6 @@
-// import { Socials } from "@/constants";
+import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
-
-const Socials = [
-  { name: 'Instagram', src: '/Instagram.svg', link: 'https://www.instagram.com/_katarisu_/' },
-  { name: 'Github', src: '/gitwhite.png', link: 'https://github.com/JerichoThe' },
-  { name: 'LinkedIn', src: '/LinkedIn.png', link: 'https://www.linkedin.com/in/jericho-thenando/' },
-]
 
 const Navbar = () => {
   return (
